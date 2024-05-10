@@ -16,7 +16,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
 
 </head>
 
@@ -33,7 +33,7 @@
           </a>
         </div>
         <div class="col-auto text-white">
-            <span style="font-size: 2rem; line-height: 2rem; font-weight: bold; ">RESIDENCIA TULIPANES</span>
+          <span style="font-size: 2rem; line-height: 2rem; font-weight: bold; ">RESIDENCIA TULIPANES</span>
 
         </div>
         <div class="col-auto">
@@ -50,25 +50,20 @@
     </nav>
   </header>
 
-
   <!-- CUERPO -->
   <!-- <div>
     <button onclick="agregarFillNegro()">CAMBIAR ATT PATH</button>
   </div> -->
 
+
   <style>
     .path-hover:hover {
       fill: #B7E892;
-      /* Color de relleno al hacer hover */
       stroke: #333;
-      /* Color de borde al hacer hover */
       stroke-width: 10;
-      /* Ancho de borde al hacer hover */
       cursor: pointer;
-      /* Cambiar el cursor a "pointer" al hacer hover */
     }
   </style>
-
 
 
   <script>
@@ -100,31 +95,26 @@
             </div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="yellow" stroke="black"
-                  class="bi bi-square-fill" viewBox="0 0 16 16">
-                  <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2z" />
-                </svg>
+                <i class="bi bi-circle-fill" style="color:yellow"></i>
                 <span>Separado</span><br>
 
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="red" stroke="black"
-                  class="bi bi-square-fill" viewBox="0 0 16 16">
-                  <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2z" />
-                </svg>
+                <i class="bi bi-circle-fill" style="color:red"></i>
                 <span>Vendido</span><br>
 
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="green" stroke="black"
-                  class="bi bi-square-fill" viewBox="0 0 16 16">
-                  <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2z" />
-                </svg>
+                <i class="bi bi-circle-fill" style="color:green"></i>
                 <span>Seleccionado</span>
               </li>
             </ul>
           </div>
 
           <!-- LOTES EN SVG -->
-          <center>
+          <!-- https://i.pinimg.com/originals/dc/d5/38/dcd538e623b43945e18fa543b8effabe.jpg -->
+          <center style="background-image: url(bg.png); background-size: cover; background-position: center;">
+
+            
+
             <div
-              style="width: 1000px; height: 960px; display: flex; justify-content: center; align-items: center; padding-top: 10px;">
+              style="width: 1000px; height: 960px; display: flex; justify-content: center; align-items: center; padding-top: 10px; ">
 
               <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="1216.000000pt" height="883.000000pt"
                 viewBox="0 0 1216.000000 883.000000" preserveAspectRatio="xMidYMid meet" transform="rotate(62)"
@@ -544,8 +534,8 @@ l27 -6 -2 168 -3 167 -50 27 c-27 15 -72 39 -99 53 -79 43 -84 41 -148 -75z" id="J
 -46 106 -95 115 -71 156 -84 181 -61 10 9 18 23 18 32 0 21 81 184 96 194 7 4
 20 30 29 57 9 28 20 50 24 50 8 0 81 144 81 160 0 6 5 10 11 10 5 0 19 21 30
 46 l21 46 -24 25 c-12 13 -61 45 -108 70 -47 25 -193 105 -325 178 -281 155
--300 165 -338 176 -25 7 -30 5 -43 -19z" fill="white" style="stroke-width:8; pointer-events: none;" stroke="black" data-toggle="tooltip"
-                    aria-label="PRECIO: 10000 dolares METROS: 120M2"
+-300 165 -338 176 -25 7 -30 5 -43 -19z" fill="white" style="stroke-width:8; pointer-events: none;" stroke="black"
+                    data-toggle="tooltip" aria-label="PRECIO: 10000 dolares METROS: 120M2"
                     data-bs-original-title="PRECIO: 10000 dolares METROS: 120M2" class="path-hover">
                   </path>
 
@@ -732,8 +722,8 @@ l27 -6 -2 168 -3 167 -50 27 c-27 15 -72 39 -99 53 -79 43 -84 41 -148 -75z" id="J
 -45 -79 -46 -78 200 -212 121 -66 298 -163 393 -216 202 -110 205 -111 240
 -15 12 32 51 108 87 168 80 134 117 211 113 233 -4 19 -56 55 -147 102 -61 32
 -66 33 -131 24 -75 -10 -141 -2 -176 21 -34 22 -82 91 -94 135 -13 47 -26 58
--133 114 -119 62 -126 61 -175 -21z" fill="white" style="stroke-width:8; pointer-events: none;" stroke="black" data-toggle="tooltip"
-                    aria-label="PRECIO: 10000 dolares METROS: 120M2"
+-133 114 -119 62 -126 61 -175 -21z" fill="white" style="stroke-width:8; pointer-events: none;" stroke="black"
+                    data-toggle="tooltip" aria-label="PRECIO: 10000 dolares METROS: 120M2"
                     data-bs-original-title="PRECIO: 10000 dolares METROS: 120M2" class="path-hover"></path>
                   <path d="M8041 5020 c-24 -45 -41 -83 -40 -84 2 -2 47 -28 99 -58 158 -92 266
 -148 284 -148 19 0 84 97 92 137 4 21 0 33 -18 49 -35 33 -303 174 -340 180
@@ -1167,12 +1157,12 @@ l27 -6 -2 168 -3 167 -50 27 c-27 15 -72 39 -99 53 -79 43 -84 41 -148 -75z" id="J
 
                   <path
                     d="M 10193 3702 c -35 -54 -44 -79 -78 -137 c -50 -86 174 -160 258 -192 c 189 -116 221 -126 246 -143 c 112 -78 220 -131 288 -167 l 41 43 l 673 1259 c -34 28 -167 111 -304 191 c -99 41 -192 108 -517 272 z"
-                    id="C_05" fill="white" stroke="black" style="stroke-width:8; pointer-events: none;" data-toggle="tooltip"
-                    aria-label="PRECIO: 10000 dolares METROS: 120M2"
+                    id="C_05" fill="white" stroke="black" style="stroke-width:8; pointer-events: none;"
+                    data-toggle="tooltip" aria-label="PRECIO: 10000 dolares METROS: 120M2"
                     data-bs-original-title="PRECIO: 10000 dolares METROS: 120M2" class="path-hover"></path>
-                    
-                    <!-- <text x="5100" y="4750" fill="black" style="font-size: 10rem;">MERCADO</text> -->
-                    <text x="5100" y="4750" fill="black" class="f1">HOLA</text>
+
+                  <!-- <text x="5100" y="4750" fill="black" style="font-size: 10rem;">MERCADO</text> -->
+                  <text x="5100" y="4750" fill="black" class="f1">HOLA</text>
 
 
 
@@ -1283,10 +1273,12 @@ l27 -6 -2 168 -3 167 -50 27 c-27 15 -72 39 -99 53 -79 43 -84 41 -148 -75z" id="J
                     aria-label="PRECIO: 10000 dolares METROS: 120M2"
                     data-bs-original-title="PRECIO: 10000 dolares METROS: 120M2" class="path-hover"></path>
 
-                  
-                  <path d="
-                  M 10920 2432 c -24 -50 -35 -83 -58 -143 c 9 -8 73 -44 292 -163 c 40 -22 82 -38 94 -36 c 15 2 33 22 55 63 c 39 69 41 86 17 115 c -28 33 -325 190 -359 190 c -28 0 -33 -7 -69 -80 z" id="B_09" fill="white" stroke="black" style="stroke-width:8"
-                    data-toggle="tooltip" aria-label="PRECIO: 10000 dolares METROS: 120M2"
+
+                  <path
+                    d="
+                  M 10920 2432 c -24 -50 -35 -83 -58 -143 c 9 -8 73 -44 292 -163 c 40 -22 82 -38 94 -36 c 15 2 33 22 55 63 c 39 69 41 86 17 115 c -28 33 -325 190 -359 190 c -28 0 -33 -7 -69 -80 z"
+                    id="B_09" fill="white" stroke="black" style="stroke-width:8" data-toggle="tooltip"
+                    aria-label="PRECIO: 10000 dolares METROS: 120M2"
                     data-bs-original-title="PRECIO: 10000 dolares METROS: 120M2" class="path-hover"></path>
 
 
@@ -1573,8 +1565,7 @@ l-51 22 -41 -67z" id="E_15" fill="white" stroke="black" style="stroke-width:8" d
               </svg>
 
             </div>
-            <div class="position-absolute" style="top: 53rem; left: 50rem;">CANCHA DE</div>
-            <div class="position-absolute" style="top: 54rem; left: 51rem;">GRASS</div>
+
             <div class="border-top p-4" style="background-color:darkgray;">
               AUTOPISTA PUNO - MOQUEGUA
             </div>
@@ -1694,6 +1685,7 @@ l-51 22 -41 -67z" id="E_15" fill="white" stroke="black" style="stroke-width:8" d
       </fieldset>
     </div>
   </form>
+
 </body>
 
 
@@ -1747,7 +1739,7 @@ l-51 22 -41 -67z" id="E_15" fill="white" stroke="black" style="stroke-width:8" d
   });
 </script>
 
-
+<!-- Descripcion del terreno -->
 <script>
   $(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();
